@@ -1,0 +1,158 @@
+html
+{
+    overflow-x: hidden;
+    height: 100vh;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+body
+{
+    zoom: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#headerIn
+{
+    color: white;
+    height: 10vh;
+    width: 100vw;
+    margin-right: 20px;
+    background-color: red;
+}
+
+#tituloIn
+{
+    font-family: Segoe UI;
+    font-weight:bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px; 
+    padding-top: 1.5vh;
+    padding-left: 50px;
+    float: left;
+}
+
+#alinearContenidosIndex
+{
+    vertical-align: 4vh;
+}
+
+#contenidosIndex
+{
+    margin-left: 20vw;
+}
+
+.linkIndex
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 26px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top:5vh;
+    padding-bottom:2.8vh;
+    margin-left:-5px;
+    transition: 0.3s;
+}
+
+.linkIndex:hover
+{
+    color: blue;
+    background-color: lightblue;
+    transition: 0.3s;
+}
+
+.linkIndexRedes
+{
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+.linkImgIndex
+{
+    margin-bottom: -12px;
+    height: 40px;
+    width: 40px;
+}
+
+#imgheader
+{
+    clear: left;
+    margin-top:18px;
+    margin-left:0px;
+}
+
+#tituloimagenheader
+{
+    padding-top:120px;
+    padding-bottom: 0px;
+    right: 70px;
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+#imgImagenheader
+{
+    height: 65vh;
+    width: 100vw;
+}
+
+#contenedorBodyIndex
+{
+    clear:right;
+    font-family: Segoue UI;
+    margin-top: 70vh;
+}
+
+.descripcionIndex
+{
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+    width: 25vw;
+}
+
+.descripcionImagenindex
+{
+    border-radius: 10%;
+    height: 220px;
+    width: 350px;
+}
+
+.subtitulobodyindex
+{
+    margin-top:10px;
+    margin-bottom:18px;
+    color: black;
+    font-size: 25px;
+    text-align:center;
+}
+
+p
+{
+    text-align:justify;
+    width:100%;
+    margin-top:0px;
+    margin-left:35px;
+}
+
+#pie
+{
+    width:100vw;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: whitesmoke;
+    margin-top: 70px;       
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+}
