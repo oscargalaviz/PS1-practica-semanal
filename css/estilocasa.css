@@ -1,9 +1,8 @@
 html
 {
-    background-image: url(/imagen/tecnologia.jpg);
+    background-image: url(../imagen/tecnologia.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
     height: 100vh;
     margin-top: 0px;
     margin-left: 0px;
