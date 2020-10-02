@@ -220,29 +220,54 @@ width:100vw;
     background-color: black;
 }
 /*estilos para la pagina contactos*/
-
-.Cback-imag
+#boton
+{
+    color: teal;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: fantasy;
+    text-decoration: none;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 0.5s;
+    position: absolute;
+    margin-left: 15%;
+}
+#boton:hover
+{
+    color:white;
+    background-color: teal;
+    transition: 0.5s;
+}
+.Conback-imag
 {
     
-    background-image: url(../imagen/chesi.jpg);
+    
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
-    margin-top: 50px;
-    height: 390px;
-    width: 350px;
+    margin-left: 10%;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
     
 }
-.Cimage-left{
+.Conimage-left{
     
     padding-right: 25%;
     border-right: 0px dashed black;
     
 }
-
-.Cleft{
+.Conleft{
     float: left;
+    margin-left: 10%;
 }
+
 
 .textoetiqueta{
     
@@ -272,7 +297,9 @@ width:100vw;
 }
 #tituloinfo
 {
-    padding-top:10px;
+    
+    margin-left: 10%;
+    padding-top:50px;
     padding-left: 0px;
     right: 70px;
     color: black;
