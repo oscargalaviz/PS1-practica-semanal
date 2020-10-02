@@ -1,0 +1,49 @@
+.back-imag
+{
+    
+    background-image: url(../imagen/chesi.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    height: 390px;
+    width: 350px;
+    
+}
+.image-left{
+    
+    padding-right: 25%;
+    border-right: 0px dashed black;
+    
+}
+
+.aleft{
+    float: left;
+}
+
+.label-text{
+    
+    
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: burlywood;
+    
+}
+.input-text{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 220px;
+    height: 30px;
+    border: 0.5px solid turquoise;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    position: relative;
+    
+
+}
+#textarea
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+}
